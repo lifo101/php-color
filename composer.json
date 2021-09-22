@@ -1,0 +1,20 @@
+{
+    "name": "lifo/php-color",
+    "description": "Color library for PHP. Create and convert colors on the Color Wheel using rgb, hsl, hsv, cmy, cmyk formats.",
+    "keywords": ["color", "colorwheel", "rgb", "hsl", "hsv", "convert", "harmonies"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason Morriss",
+            "email": "lifo101@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "mistic100/randomcolor": "^1.0"
+    },
+    "autoload": {
+        "psr-4": { "Lifo\\Color\\": "src/" }
+    }
+}
